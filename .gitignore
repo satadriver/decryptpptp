@@ -4,6 +4,8 @@
 *.VC.db
 
 *.ipch
+*.sdf
+*.pdb
 
 # Compiled Object files
 *.slo
