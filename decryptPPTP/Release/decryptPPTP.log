@@ -1,0 +1,37 @@
+﻿  capture.cpp
+  chap.cpp
+  decryptpptp.cpp
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(276,8): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(286,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(293,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(316,8): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(328,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(336,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(151,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(194,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(238,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(244,16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(268,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(280,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(306,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(320,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(349,7): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(365,8): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(435,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\decryptpptp.cpp(441,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  publicfunc.cpp
+  sessionkey.cpp
+  des.cpp
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\des.cpp(1,1): warning C4103: 包括标题后更改了对齐方式，可能是由于缺少 #pragma pack(pop)
+  md4.cpp
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\md4.cpp(40,1): warning C4103: 包括标题后更改了对齐方式，可能是由于缺少 #pragma pack(pop)
+  mppcdecom.cpp
+  rc4.cpp
+  sha1.cpp
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\sha1.h(6,1): warning C4103: 包括标题后更改了对齐方式，可能是由于缺少 #pragma pack(pop)
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\sessionkey.cpp(199): warning C4715: “init_start_key”: 不是所有的控件路径都返回值
+  All 241 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  decryptPPTP.vcxproj -> E:\BaiduNetdiskDownload\decryptPPTP\Release\decryptPPTP.exe
