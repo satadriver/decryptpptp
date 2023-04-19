@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 
+*.VC.db
+
+*.ipch
+
 # Compiled Object files
 *.slo
 *.lo

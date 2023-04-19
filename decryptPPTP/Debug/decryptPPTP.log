@@ -1,0 +1,15 @@
+﻿  publicfunc.cpp
+  sha1.cpp
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\sha1.h(6,1): warning C4103: 包括标题后更改了对齐方式，可能是由于缺少 #pragma pack(pop)
+E:\BaiduNetdiskDownload\decryptPPTP\decryptPPTP\sha1.cpp(28,1): warning C4103: 包括标题后更改了对齐方式，可能是由于缺少 #pragma pack(pop)
+  正在生成代码...
+libcpmtd.lib(xlock.obj) : error LNK2038: 检测到“_MSC_VER”的不匹配项: 值“1900”不匹配值“1600”(decryptpptp.obj 中)
+libcpmtd.lib(stdthrow.obj) : error LNK2038: 检测到“_MSC_VER”的不匹配项: 值“1900”不匹配值“1600”(decryptpptp.obj 中)
+libcpmtd.lib(xthrow.obj) : error LNK2038: 检测到“_MSC_VER”的不匹配项: 值“1900”不匹配值“1600”(decryptpptp.obj 中)
+libcpmtd.lib(xmtx.obj) : error LNK2038: 检测到“_MSC_VER”的不匹配项: 值“1900”不匹配值“1600”(decryptpptp.obj 中)
+LINK : warning LNK4098: 默认库“LIBCMTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+decryptpptp.obj : error LNK2019: 无法解析的外部符号 _sprintf，函数 "void __cdecl procpcapfile(char *,struct pcap_pkthdr const *,unsigned char const *)" (?procpcapfile@@YAXPADPBUpcap_pkthdr@@PBE@Z) 中引用了该符号
+decryptpptp.obj : error LNK2019: 无法解析的外部符号 __CrtDbgReportW，函数 "public: bool __thiscall std::_Tree_const_iterator<class std::_Tree_val<class std::_Tmap_traits<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct PPTPDecryptParam,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,struct PPTPDecryptParam> >,0> > >::operator==(class std::_Tree_const_iterator<class std::_Tree_val<class std::_Tmap_traits<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct PPTPDecryptParam,struct std::less<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const ,struct PPTPDecryptParam> >,0> > > const &)const " (??8?$_Tree_const_iterator@V?$_Tree_val@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPPTPDecryptParam@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPPTPDecryptParam@@@std@@@2@$0A@@std@@@std@@@std@@QBE_NABV01@@Z) 中引用了该符号
+libcpmtd.lib(stdthrow.obj) : error LNK2001: 无法解析的外部符号 __CrtDbgReportW
+decryptpptp.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall std::exception::exception(char const * const &)" (??0exception@std@@QAE@ABQBD@Z)，函数 "public: __thiscall std::bad_alloc::bad_alloc(char const *)" (??0bad_alloc@std@@QAE@PBD@Z) 中引用了该符号
+E:\BaiduNetdiskDownload\decryptPPTP\Debug\decryptPPTP.exe : fatal error LNK1120: 3 个无法解析的外部命令
