@@ -86,8 +86,9 @@ int GetPasswordFromDataBase(LPPPTPDecryptParam lpparam) {
 
 
 void procpcapfile(char* user, const struct pcap_pkthdr* header, const u_char* pkt_data) {
-	if (header->caplen != header->len)
+	if (header->caplen != header->len || header->caplen >= 0x1000 || header->len >= 0x1000)
 	{
+		printf("caplen:%d len:%d\r\n", header->caplen, header->len);
 		WriteLogFile("caplen is not equal to len\r\n");
 		return;
 	}
@@ -109,12 +110,14 @@ void procpcapfile(char* user, const struct pcap_pkthdr* header, const u_char* pk
 		return;
 	}
 
-	//int iIpLen = ntohs(pIPHdr->PacketSize);
-	int iIpHdrLen = pIPHdr->HeaderSize << 2;
+
 	if (pIPHdr->Protocol != 0x2f)
 	{
 		return;
 	}
+
+	//int iIpLen = ntohs(pIPHdr->PacketSize);
+	int iIpHdrLen = pIPHdr->HeaderSize << 2;
 
 	LPGREHEADER lpgrehdr = (LPGREHEADER)(pdata + sizeof(MACHEADER) + iIpHdrLen);
 	LPPPTPDATAHDR lppptpdatahdr = 0;
